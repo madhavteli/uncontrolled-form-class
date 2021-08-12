@@ -1,12 +1,12 @@
-import React from 'react';
-import ControlledForm from "./Components/ControlledForm";
+import React, { Fragment } from 'react';
+import UncontrolledForm from "./Components/UncontrolledForm";
 
 function App() {
 
 	return (
-		<div>
-			<ControlledForm/>
-		</div>
+		<Fragment>
+			<UncontrolledForm/>
+		</Fragment>
 	);
 }
 
