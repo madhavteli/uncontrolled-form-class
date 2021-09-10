@@ -5,13 +5,12 @@ class UncontrolledForm extends Component {
 
 	formSaveHandler = (event) => {
 		event.preventDefault();
-		// alert(`
-		// 	firstName: ${this.firstName.value}
-		// 	lastName: ${this.lastName.value}
-		// 	email: ${this.email.value}
-		// 	phone: ${this.phone.value}
-		// `);
-		alert('firstName: '+this.firstName.value+'\nlastName: '+this.lastName.value+'\nemail: '+this.email.value+'\nphone: '+this.phone.value);
+		alert(`
+        firstName: ${this.firstName.value}
+        lastName: ${this.lastName.value}
+        email: ${this.email.value}
+        phone: ${this.phone.value}
+       `);
 	};
 
 	render() {
